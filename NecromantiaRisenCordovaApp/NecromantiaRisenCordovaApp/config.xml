@@ -4,7 +4,7 @@
   <description>
   </description>
   <author href="http://cordova.io" email="dev@cordova.apache.org">Reaver Games</author>
-  <content src="index.html" />
+  <content src="gamePage.html" />
   <access origin="*" />
   <vs:features />
   <preference name="SplashScreen" value="screen" />
@@ -108,4 +108,6 @@
     <splash src="res/screens/wp8/SplashScreenImage.png" width="768" height="1280" />
   </platform>
   <preference name="Fullscreen" value="True" />
+  <preference name="Orientation" value="portrait" />
+  <plugin name="cordova-plugin-file" version="4.3.0" />
 </widget>

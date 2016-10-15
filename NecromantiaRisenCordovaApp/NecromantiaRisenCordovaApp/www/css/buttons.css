@@ -1,0 +1,46 @@
+﻿#buttonsTable {
+    width: 90%;
+    left: 5%;
+    position: fixed;
+    height: 20%;
+    bottom: 2.5%;
+}
+
+.buttonRow {
+    width: 100%;
+    height: 50%;
+    margin: 0;
+}
+
+.buttonCellLeft {
+    width: 46%;
+    margin-right: 4%;
+    left: 0;
+}
+
+.buttonCellRight {
+    width: 46%;
+    margin-left: 4%;
+    right: 0;
+}
+
+.choiceButton {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    font-weight: 400;
+    line-height: 1.25;
+    border: 1px solid transparent;
+    user-select: none;
+    padding: .5rem 1rem;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px 5px 15px 5px;
+    background: #984B43;
+    color: white;
+    font-family: sans-serif;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-user-modify: read-write-plaintext-only;
+    -webkit-tap-highlight-color: transparent;
+}

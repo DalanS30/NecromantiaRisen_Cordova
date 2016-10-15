@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--
+        Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
+        For details, see http://go.microsoft.com/fwlink/?LinkID=617521
+    -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/gamePage.css">
+    <link rel="stylesheet" type="text/css" href="css/buttons.css">
+    <title>Necromantia Risen</title>
+</head>
+<body>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="scripts/platformOverrides.js"></script>
+    <script src="scripts/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="scripts/gamePage.js"></script>
+    <textarea id="gameText" readonly="readonly">
+        Didn't work
+    </textarea>
+    <table id="buttonsTable">
+        <tr class="buttonRow">
+            <td class="buttonCellLeft">
+                <input id="choiceButton1" class="choiceButton" type="button" value="Choice 1" />
+            </td>
+            <td class="buttonCellRight">
+                <input id="choiceButton2" class="choiceButton" type="button" value="Choice 2" />
+            </td>
+        </tr>
+        <tr class="buttonRow">
+            <td class="buttonCellLeft">
+                <input id="choiceButton3" class="choiceButton" type="button" value="Choice 3" />
+            </td>
+            <td class="buttonCellRight">
+                <input id="choiceButton4" class="choiceButton" type="button" value="Choice 4" />
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

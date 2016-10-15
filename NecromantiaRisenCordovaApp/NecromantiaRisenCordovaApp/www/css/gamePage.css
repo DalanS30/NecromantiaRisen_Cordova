@@ -1,0 +1,23 @@
+#gameText {
+    border: 1px solid #ccc;
+    overflow: scroll;
+    position: absolute;
+    height: 72.5%;
+    width: 84%;
+    left: 5%;
+    left: 5%;
+    top: 2.5%;
+    bottom: 22.5%;
+    background-color: #233237;
+    color: white;
+    border-radius: 15px 5px 15px 5px;
+    text-align: justify;
+    text-justify: inter-word;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #18121E;
+}
